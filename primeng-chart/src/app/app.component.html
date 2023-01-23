@@ -1,21 +1,23 @@
-<div class="card">
-  <h5>Vertical</h5>
-  <p-chart type="bar" [data]="basicData" [options]="basicOptions"></p-chart>
-</div>
+<div class="grid">
+    <div class="col">
+      <h5>Vertical</h5>
+      <p-chart type="bar" [data]="basicData" [options]="basicOptions"></p-chart>
+    </div>
 
-<div class="card">
-  <h5>Horizontal</h5>
-  <p-chart type="bar" [data]="basicData" [options]="horizontalOptions"></p-chart>
-</div>
+    <div class="col">
+      <h5>Horizontal</h5>
+      <p-chart type="bar" [data]="basicData" [options]="horizontalOptions"></p-chart>
+    </div>
 
-<div class="card">
-  <h5>Multi Axis</h5>
-  <p-chart type="bar" [data]="multiAxisData" [options]="multiAxisOptions"></p-chart>
-</div>
+    <div class="col">
+      <h5>Multi Axis</h5>
+      <p-chart type="bar" [data]="multiAxisData" [options]="multiAxisOptions"></p-chart>
+    </div>
 
-<div class="card">
-  <h5>Stacked</h5>
-  <p-chart type="bar" [data]="stackedData" [options]="stackedOptions"></p-chart>
+    <div class="col">
+      <h5>Stacked</h5>
+      <p-chart type="bar" [data]="stackedData" [options]="stackedOptions"></p-chart>
+    </div>
 </div>
 
 <router-outlet></router-outlet>
